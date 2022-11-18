@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Portfolio</title>
+    <link rel="icon" href="/images/head.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <label class="logo">
+                Jeewan Singh
+            </label>
+            <ul class="nav">
+                <li><a class="navlink" href="/">Home</a></li>
+                <li><a class="navlink" href="/#about">About</a></li>
+                <li><a class="navlink" href="/#skills">Skills</a></li>
+                <li><a class="navlink" href="/#clients">Clients</a></li>
+                <li><a class="navlink contact-nav" href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class=" section-home grid grid-col-2">
+        <div class="image">
+            <img class="img" src="/images/head.jpg" alt="Headshot of Jeewan Singh">
+            <div class="social">
+                <a href="https://www.facebook.com/imjeewan07/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/imjeewan07/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.twitter.com/imjeewan07/"> <i class="fa fa-twitter"></i></a>
+
+            </div>
+        </div>
+        <div class="intro">
+            <p class="main-heading">Hi!</p>
+            <p class="name">I am <strong class="name">Jeewan</strong> </p>
+            <span class="detail detail3 web"></span>
+            <p class="cvlink">
+                <a download="CV_Jeewan_Singh.png" class="cv" href="/CV_Jeewan_Singh.png">Download CV</a>
+            </p>
+        </div>
+    </section>
+    <section class="grid-col-1">
+        <a href="#about" class="arrow"><i class="fa fa-arrow-down"></i></a>
+    </section>
+    <section class="about" id="about">
+        <div class="sub-heading border">
+            About me
+        </div>
+        <p class="detail detail2">
+            I am Jeewan. I am very passionate about learning new skills and being innovative.
+        </p>
+        <p class="detail detail2">
+            A self-motivated, hardworking, and dedicated individual who is always willing to learn new skills and
+            improve my knowledge. I am a team player and I am always ready to help my team members. I am a quick learner
+            and I am always ready to take on new challenges.
+        </p>
+    </section>
+
+    <section class="skills skiil" id="skills">
+        <div class="sub-heading border sec-skill">
+            Skills
+        </div>
+        <div class="center-skill">
+            <div class="logos">
+                <img src="/images/js.png" alt="javascript logo">
+                <img src="/images/react.png" alt="react logo">
+                <img src="/images/next.png" alt="next logo">
+                <img src="/images/html.png" alt="html logo">
+                <img src="/images/css.png" alt="css logo">
+                <img src="/images/scss.png" alt="scss logo">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="clients" id="clients">
+        <div class="sub-heading border">
+            I'm working with
+        </div>
+        <div class="grid-col-5">
+            <a href="https://www.facebook.com/madheshcricketassociation"><img src="/images/clogo1.png" class="clogo"
+                    alt="Madhesh Province Cricket Logo"></a>
+            <a href="https://www.facebook.com/routineofnepalcricket"><img src="/images/clogo2.png" class="clogo"
+                    alt="RONC Logo"></a>
+            <a href="https://www.facebook.com/WicketNepal"><img src="/images/clogo3.png" class="clogo"
+                    alt="Wicketnepal Logo"></a>
+            <a href="https://www.facebook.com/SaptariPremierLeague"><img src="/images/clogo4.png" class="clogo"
+                    alt="SPL Logo"></a>
+            <a href="https://www.facebook.com/littleflowerpremierleague7"><img src="/images/clogo5.png" class="clogo"
+                    alt="LPL Logo"></a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+
+        <div class="sub-heading border">Conect with me</div>
+        <div class="grid-col--2">
+            <div class="message">
+                <p class="hello">HELLO THERE! LET'S GET IN TOUCH.</p>
+                <p class="message-text detail detail2">Please feel free to leave me a message or contact me for project.
+                    I am
+                    available
+                    on any one of these
+                    social media sites. Send me a note, and let's get started on your project today!</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/imjeewan07/"><i class="con-logo fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/imjeewan07/"><i class="fa con-logo fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/imjeewan07/"> <i class="fa con-logo fa-twitter"></i></a>
+
+                </div>
+            </div>
+            <form id="my-form" action="https://formspree.io/f/mpznnwyw" method="post">
+                <div class="subs">
+                    <span class="detail detail4">Full Name</span>
+                    <input name="name" placeholder="John Doe" class="input" type="text" required>
+                    <span class="detail detail4">Email Address</span>
+                    <input name="email" placeholder="example@mail.com" class="input" type="email" required>
+                    <span class="detail detail4">Message</span>
+                    <textarea name="message" placeholder="Your message here..." class="input input1" type="text"
+                        required></textarea>
+                    <input class="button detail2" type="submit">
+                    <p id="my-form-status">df</p>
+            </form>
+        </div>
+        </div>
+    </section>
+    <section class="sec-footer">
+        <div class="footer">
+            Copyright &#169;2022. All rights reserved | Jeewan Singh
+        </div>
+    </section>
+
+    <script>
+        var form = document.getElementById("my-form");
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            var status = document.getElementById("my-form-status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    status.innerHTML = "Thanks for your submission!";
+                    form.reset()
+                } else {
+                    response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                        } else {
+                            status.innerHTML = "Oops! There was a problem submitting your form"
+                        }
+                    })
+                }
+            }).catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+            });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
+</body>
+
+</html>
