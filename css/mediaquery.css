@@ -7,14 +7,92 @@
         align-items: center;
     }
 
+    .logo {
+        font-size: 24px;
+    }
+
     .nav {
         font-size: 14px;
     }
 
     ul {
         list-style: none;
-        float: centerS;
+        float: center;
         margin-right: 5%;
 
+    }
+
+    .section-home {
+        height: 580px;
+        margin-top: 0;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .contact-nav {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .grid-col-2 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .intro {
+        border-top: 1px solid #ccc;
+        border-left: none;
+        padding-left: 0px;
+        padding-top: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .web {
+        text-align: center;
+    }
+
+    .sub-heading {
+        font-size: 36px;
+    }
+
+
+    .grid-col-5 {
+        height: 480px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .clogo5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .grid-col--2 {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 260px 1fr;
+    }
+
+    .hello {
+        font-size: 18px;
+    }
+
+    .contact {
+        height: 860px;
+    }
+
+    .footer {
+        height: 30px;
+        padding-top: 7px;
+    }
+
+    .sec-footer {
+
+        font-size: 14px;
     }
 }

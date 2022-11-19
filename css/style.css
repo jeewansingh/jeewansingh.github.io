@@ -2,9 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.logo {
-    color: red !important;
-}
 
 * {
     margin: 0;
@@ -275,7 +272,7 @@ li {
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
     /* width: 400px; */
     /* justify-content: space-around; */
 }
