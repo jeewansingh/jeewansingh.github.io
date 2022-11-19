@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +20,7 @@ html {
     position: -webkit-sticky;
     position: sticky;
     top: 0 !important;
+    /* Media */
 
     /* padding: 10px; */
 }
@@ -29,6 +31,7 @@ html {
     line-height: 45px;
     padding: 0 5%;
     font-weight: bold;
+    /* float: center; */
 }
 
 ul {
