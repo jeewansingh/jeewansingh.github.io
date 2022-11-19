@@ -1,0 +1,16 @@
+@media (max-width: 555px) {
+    .header {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        list-style: none;
+        float: centerS;
+        margin-right: 5%;
+
+    }
+}

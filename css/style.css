@@ -15,11 +15,12 @@ html {
 .header {
     /* display: flex; */
     background-color: #0044ff;
-    height: 50px;
+    height: 100px;
     width: 100%;
     position: -webkit-sticky;
     position: sticky;
     top: 0 !important;
+    /* Media */
 
     /* padding: 10px; */
 }
@@ -30,6 +31,7 @@ html {
     line-height: 45px;
     padding: 0 5%;
     font-weight: bold;
+    /* float: center; */
 }
 
 ul {
