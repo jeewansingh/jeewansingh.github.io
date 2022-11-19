@@ -139,7 +139,34 @@
         </div>
     </section>
 
+    <!-- Back to Top Start -->
+    <button type="button" id="btn-back-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+    <!-- Back to Top End -->
+
     <script>
+        // script to back to top button
+        let backToTopButton = document.getElementById("btn-back-to-top");
+        window.onscroll = function () {
+            scrollFunction();
+        };
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 700 ||
+                document.documentElement.scrollTop > 700
+            ) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+        backToTopButton.addEventListener("click", backToTop);
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
         var form = document.getElementById("my-form");
 
         async function handleSubmit(event) {

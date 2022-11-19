@@ -95,4 +95,9 @@
 
         font-size: 14px;
     }
+
+    #btn-back-to-top {
+        bottom: 40px;
+        right: 20px;
+    }
 }
