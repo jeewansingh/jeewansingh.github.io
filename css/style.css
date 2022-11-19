@@ -15,7 +15,7 @@ html {
 .header {
     /* display: flex; */
     background-color: #0044ff;
-    height: 100px;
+    height: 50px;
     width: 100%;
     position: -webkit-sticky;
     position: sticky;
