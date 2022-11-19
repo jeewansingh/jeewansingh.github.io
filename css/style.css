@@ -403,3 +403,42 @@ li {
     width: 100%;
     text-align: center;
 }
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #b3c7ff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: darkblue;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0044ff;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    transition: all 0.5s ease;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+}
+
+.fa-arrow-up {
+    color: white;
+}
