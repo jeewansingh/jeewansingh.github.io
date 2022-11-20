@@ -145,7 +145,7 @@ li {
     background-color: #1a57ff;
     color: #eee;
     border-radius: 10px;
-
+    padding-top: 8px;
 }
 
 .cv:hover,
@@ -396,7 +396,7 @@ li {
 }
 
 .footer {
-    /* margin-top: 200px; */
+    padding-top: 3px;
     color: #eee;
     background-color: #0044ff;
     height: 25px;
@@ -437,6 +437,10 @@ li {
     background-color: #0044ff;
     height: 40px;
     width: 40px;
+}
+
+.btn {
+    background-color: #0044ff;
 }
 
 .fa-arrow-up {
