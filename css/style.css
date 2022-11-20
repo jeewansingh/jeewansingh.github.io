@@ -396,12 +396,13 @@ li {
 }
 
 .footer {
-    padding-top: 3px;
+    padding: 18px 0;
     color: #eee;
     background-color: #0044ff;
-    height: 25px;
+    height: 60px;
     width: 100%;
     text-align: center;
+
 }
 
 
@@ -428,7 +429,7 @@ li {
 #btn-back-to-top {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 20px;
     display: none;
     transition: all 0.5s ease;
     padding: 5px;
@@ -437,6 +438,7 @@ li {
     background-color: #0044ff;
     height: 40px;
     width: 40px;
+    border: 3px solid white;
 }
 
 .btn {
