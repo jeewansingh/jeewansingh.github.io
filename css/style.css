@@ -13,16 +13,13 @@ html {
 }
 
 .header {
-    /* display: flex; */
+    display: block;
     background-color: #0044ff;
     height: 50px;
     width: 100%;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0 !important;
-    /* Media */
+    position: fixed;
+    top: 0px;
 
-    /* padding: 10px; */
 }
 
 .logo {
