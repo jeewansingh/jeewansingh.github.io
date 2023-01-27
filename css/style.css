@@ -279,6 +279,24 @@ li {
 
 }
 
+.portfolio {
+    padding: 0px 5%;
+    padding-bottom: 55px;
+    margin: 0 5vw;
+}
+
+.grid-5 {
+
+    width: 90vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 20px;
+}
+
 .clients {
     padding: 0px 5%;
     padding-bottom: 55px;
