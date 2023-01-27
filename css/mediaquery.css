@@ -1,14 +1,7 @@
-@media (max-width: 900px) {
-    .grid-col-5 {
-        height: 480px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 555px) {
+@media (max-width: 650px) {
     .header {
-        height: 100px;
+        font-size: 10px;
+        height: 90px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -16,11 +9,11 @@
     }
 
     .logo {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .nav {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     ul {
@@ -100,7 +93,6 @@
     }
 
     .sec-footer {
-
         font-size: 14px;
     }
 
